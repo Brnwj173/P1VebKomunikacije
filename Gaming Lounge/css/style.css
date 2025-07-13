@@ -94,7 +94,27 @@ footer {
   height: auto;  
   border-radius: 10px;  
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  
-}  
+}
+
+.info {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.info h3 {
+  color: #cc0000;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
 
 .pricing {  
   padding: 40px 20px;  
