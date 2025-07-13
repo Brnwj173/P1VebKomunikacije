@@ -1,27 +1,23 @@
-/* Reset margins and paddings for all elements */  
 * {  
   margin: 0;  
   padding: 0;  
   box-sizing: border-box;  
 }  
 
-/* Set default body font and background */  
 body {  
   font-family: Arial, sans-serif;  
-  background-color: #f2f2f2; /* light gray */  
-  color: #1a1a1a; /* very dark gray for text readability */  
+  background-color: #f2f2f2; 
+  color: #1a1a1a; 
   line-height: 1.6;  
 }  
 
-/* Header styling */  
 header {  
-  background-color: #2b2b2b; /* dark gray */  
+  background-color: #2b2b2b; 
   padding: 20px;  
   text-align: center;  
   color: #ffffff;  
 }  
 
-/* Navigation menu styling */  
 nav ul {  
   list-style: none;  
   display: flex;  
@@ -31,21 +27,20 @@ nav ul {
 }  
 
 nav a {  
-  color: #ff4d4d; /* bright red */  
+  color: #ff4d4d;  
   text-decoration: none;  
   font-weight: bold;  
   transition: color 0.3s ease;  
 }  
 
 nav a:hover {  
-  color: #b30000; /* darker red on hover */  
+  color: #b30000; 
 }  
-
-/* Hero section styling */  
+  
 .hero {  
   text-align: center;  
   padding: 60px 20px;  
-  background-color: #d9d9d9; /* light gray background */  
+  background-color: #d9d9d9;  
   color: #2b2b2b;  
 }  
 
@@ -53,7 +48,7 @@ nav a:hover {
   margin-top: 20px;  
   padding: 10px 20px;  
   font-size: 16px;  
-  background-color: #ff4d4d; /* red button */  
+  background-color: #ff4d4d; 
   border: none;  
   color: white;  
   border-radius: 5px;  
@@ -62,21 +57,19 @@ nav a:hover {
 }  
 
 .hero button:hover {  
-  background-color: #cc0000; /* darker red on hover */  
+  background-color: #cc0000; 
 }  
 
-/* About section styling */  
 .about {  
   padding: 40px 20px;  
-  background-color: #e6e6e6; /* very light gray */  
+  background-color: #e6e6e6; 
   max-width: 800px;  
   margin: auto;  
   color: #1a1a1a;  
 }  
 
-/* Footer styling */  
 footer {  
-  background-color: #2b2b2b; /* dark gray */  
+  background-color: #2b2b2b; 
   text-align: center;  
   padding: 20px;  
   margin-top: 40px;  
@@ -84,7 +77,6 @@ footer {
   color: #f2f2f2;  
 }  
 
-/* Stil za sekciju sa slikom */  
 .image-section {  
   text-align: center;  
   padding: 40px 20px;  
@@ -103,7 +95,7 @@ footer {
   border-radius: 10px;  
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  
 }  
-/* Sekcija sa cenovnikom */  
+
 .pricing {  
   padding: 40px 20px;  
   background-color: #ffffff;  
