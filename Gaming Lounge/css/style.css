@@ -134,3 +134,61 @@ footer {
 .pricing tr:hover {  
   background-color: #e6e6e6;  
 }  
+
+@media (max-width: 768px) {  
+  nav ul {  
+    flex-direction: column;  
+    align-items: center;  
+    gap: 10px;  
+  }  
+
+  .hero,  
+  .about,  
+  .pricing,  
+  .image-section {  
+    padding: 30px 10px;  
+  }  
+
+  .hero h2,  
+  .about h2,  
+  .pricing h2,  
+  .image-section h3 {  
+    font-size: 1.5rem;  
+  }  
+
+  .hero p,  
+  .about p,  
+  .pricing table,  
+  .image-section img {  
+    font-size: 1rem;  
+  }  
+
+  .featured-image {  
+    width: 100%;  
+    border-radius: 5px;  
+  }  
+
+  .pricing table {  
+    font-size: 14px;  
+  }  
+
+  header h1 {  
+    font-size: 1.8rem;  
+  }  
+}  
+
+@media (max-width: 480px) {  
+  .hero button {  
+    width: 100%;  
+    font-size: 1rem;  
+    padding: 12px;  
+  }  
+
+  nav ul {  
+    gap: 5px;  
+  }  
+
+  nav a {  
+    font-size: 0.9rem;  
+  }  
+}
